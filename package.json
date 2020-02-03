@@ -1,0 +1,11 @@
+{
+  "name": "fizzbuzzify",
+  "version": "0.0.1",
+  "description": "This is going to fizzbuzz your whole world",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Angel Young angel.m.young24@gmail.com",
+  "license": "ISC"
+}
