@@ -4,8 +4,11 @@
   "description": "This is going to fizzbuzz your whole world",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest ."
   },
   "author": "Angel Young angel.m.young24@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^25.1.0"
+  }
 }
