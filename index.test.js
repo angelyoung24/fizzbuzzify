@@ -11,6 +11,15 @@ describe ("fizzbuzzify", () => {
         expect(fizzbuzzify(25)).toBe("buzz")
     })
     it ("if it does not divide by 3 or 5 it returns neither", () => {
-        expect(fizzbuzzify(14)).toBe("neither")
+        x = 14
+        expect(fizzbuzzify(x)).toBe(x)
+    })
+    it ("it works for arrays", () => {
+        let original = [3, 5, 15, 14]
+        let expected = ["fizz", "buzz", "fizzbuzz", 14]
+        expect(fizzbuzzify(original)).toEqual(expected)
+    })
+    it ("throws an error if you use an empty array", () => {
+        expect(() => fizzbuzzify([])).toThrow("you cannot use an empty array")
     })
 })  
