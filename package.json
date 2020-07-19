@@ -1,6 +1,6 @@
 {
   "name": "@angelyoung24/fizzbuzzify",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This is going to fizzbuzz your whole world",
   "main": "index.js",
   "scripts": {
